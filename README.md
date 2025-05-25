@@ -95,6 +95,8 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+---
+
 ## ☁️ Deploy on Streamlit Cloud
 1. Fork this repo ➜ push to your GitHub.
 2. Go to share.streamlit.io ➜ “New app”.
@@ -108,7 +110,9 @@ build-essential
 libopenblas-dev
 ```
 
-##📄 License
+---
+
+## 📄 License
 Distributed under the MIT License. See LICENSE for info.
 
 
