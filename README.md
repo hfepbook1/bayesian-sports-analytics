@@ -73,24 +73,24 @@ The app is deployed on **Streamlit Community Cloud**: **<https://sports-predicto
 
 ## 💻 Local Setup
 
-# 1. Clone
+1. Clone
 ```bash
 git clone https://github.com/yourusername/bayesian-sports-prediction-app.git
 cd bayesian-sports-prediction-app
 ```
 
-# 2. Create / activate a Python 3.10 env (optional)
+2. Create / activate a Python 3.10 env (optional)
 ```bash
 python -m venv venv
 source venv/bin/activate   # on Windows: venv\Scripts\activate
 ```
 
-# 3. Install deps
+3. Install deps
 ```bash
 pip install -r requirements.txt
 ```
 
-# 4. Run
+4. Run
 ```bash
 streamlit run app.py
 ```
