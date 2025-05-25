@@ -96,11 +96,11 @@ streamlit run app.py
 ```
 
 ## ☁️ Deploy on Streamlit Cloud
-# 1. Fork this repo ➜ push to your GitHub.
-# 2. Go to share.streamlit.io ➜ “New app”.
-# 3. Select the repo, branch, and app.py (or streamlit_app.py) as entrypoint.
-# 4. (Optional) In Advanced settings, pick Python 3.10 and add secrets.
-# 5. Click Deploy. Streamlit Cloud installs requirements.txt and spins up your app.
+1. Fork this repo ➜ push to your GitHub.
+2. Go to share.streamlit.io ➜ “New app”.
+3. Select the repo, branch, and app.py (or streamlit_app.py) as entrypoint.
+4. (Optional) In Advanced settings, pick Python 3.10 and add secrets.
+5. Click Deploy. Streamlit Cloud installs requirements.txt and spins up your app.
 
 For PyMC/Aesara compilation speed you can add a packages.txt with:
 ```bash
