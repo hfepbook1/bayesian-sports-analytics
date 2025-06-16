@@ -1,5 +1,4 @@
 streamlit
-aesara>=2.9
 pymc>=5.0       # PyMC for Bayesian modeling (requires Py3.10+)
 arviz>=0.15     # ArviZ for PyMC result analysis (omit if not used in code)
 numpy           # Numerical computations
