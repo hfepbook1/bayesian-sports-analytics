@@ -8,7 +8,7 @@ try:
     import pymc as pm
 except ImportError:
     import pymc3 as pm
-import aesara.tensor as at
+import pytensor.tensor as at
 
 st.set_page_config(page_title="Bayesian Sports Prediction", page_icon="🏀", layout="wide")
 
