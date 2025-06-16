@@ -56,18 +56,8 @@ Everything runs in a friendly Streamlit UI—tweak parameters, watch the numbers
 
 ---
 
-## 📷 Screenshots
-> Replace the image files after you capture them from the running app.
-
-| Page | Preview |
-|---|---|
-| Championship Predictor | ![Championship](screenshots/champ_simulation.png) |
-| DFS Optimizer | ![DFS](screenshots/dfs_optimizer.png) |
-
----
-
 ## ☁️ Live Demo
-The app is deployed on **Streamlit Community Cloud**: **<https://sports-predictor.streamlit.app>**
+The app is deployed on **Streamlit Community Cloud**: **<[https://sports-predictor.streamlit.app](https://bayesian-sports-analytics-b2cb5ooplyv7uee3jodjbg.streamlit.app/)>**
 
 ---
 
@@ -103,13 +93,6 @@ streamlit run app.py
 3. Select the repo, branch, and app.py (or streamlit_app.py) as entrypoint.
 4. (Optional) In Advanced settings, pick Python 3.10 and add secrets.
 5. Click Deploy. Streamlit Cloud installs requirements.txt and spins up your app.
-
-For PyMC/Aesara compilation speed you can add a packages.txt with:
-```bash
-build-essential
-libopenblas-dev
-```
-
 ---
 
 ## 📄 License
